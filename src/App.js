@@ -85,5 +85,4 @@ function App({ data }) {
 //     )
 //   };
 // }
-
 export default withLoading(App, getLanguages);
