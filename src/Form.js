@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Button } from "./components/button";
 import { TabBodyContainer } from "./components/tab-body-container";
 import { FormModal } from "./FormModal"
+import { Hint } from "./Hint"
 import styled from "styled-components";
 
 const Label = styled.label`
@@ -44,6 +45,7 @@ export const Form = ({ onAddLang }) => {
             value={text}
             onChange={(e) => setText(e.target.value)}
           />
+          <Hint />
         </div>
         <ButtonContainer>
           <FormButton>追加</FormButton>
