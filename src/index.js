@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import { AppContainer } from './AppContainer';
 
 ReactDOM.render(
-  <App />,
+  <React.StrictMode>
+    <AppContainer />
+  </React.StrictMode>,
   document.getElementById('root')
 );
