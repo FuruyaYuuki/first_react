@@ -19,7 +19,7 @@ function App({ data }) {
   const [theme] = useContext(ThemeContext);
 
   const addLang = (lang) => {
-    setLangs([...langs, lang])
+    setLangs([...langs, lang]);
     setTab('list');
   }
 

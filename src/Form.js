@@ -1,8 +1,8 @@
-import { useState } from 'react';
-import { Button } from "./components/button";
-import { TabBodyContainer } from "./components/tab-body-container";
-import { FormModal } from "./FormModal"
-import { Hint } from "./Hint"
+import {useState} from 'react';
+import {Button} from "./components/button";
+import {TabBodyContainer} from "./components/tab-body-container";
+import {FormModal} from "./FormModal"
+import {Hint} from "./Hint"
 import styled from "styled-components";
 
 const Label = styled.label`
